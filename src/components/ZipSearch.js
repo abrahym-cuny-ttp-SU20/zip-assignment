@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Proptypes from "prop-types";
 import CityCard from "./CityCard";
+import "../styles/ZipCodeCard.css"
 import axios from "axios"
 
 class ZipSearch extends Component {

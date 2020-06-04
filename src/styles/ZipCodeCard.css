@@ -1,0 +1,15 @@
+.zipcodes {
+    display: flex;
+    justify-content: center; 
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin: 10rem;
+
+
+}
+.btn {
+    margin-right:300px;
+}

@@ -12,4 +12,10 @@
 }
 .btn {
     margin-right:300px;
+    background-color: aliceblue;
 }
+.p {
+    align-items: center;
+    justify-content: center;
+  }
+  

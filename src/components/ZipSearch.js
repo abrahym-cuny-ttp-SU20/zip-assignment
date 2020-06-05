@@ -33,6 +33,7 @@ class ZipSearch extends Component {
     const zipcodeCards = () =>
       this.state.zipcodes.map((zipcode) => {
         return (
+
           <CityCard
             key={zipcode.RecordNumber}
             city={zipcode.City}
@@ -48,6 +49,8 @@ class ZipSearch extends Component {
     return (
       <>
         <div className="input-group mb-3">
+          <p>Zip Code:  </p>
+          <br></br>
           <input
             type="text"
             className="form-control"
